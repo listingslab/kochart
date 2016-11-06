@@ -1,0 +1,7 @@
+parameters:
+#    listingslab.example.class: Listingslab\Bundle\Example
+
+services:
+#    listingslab.example:
+#        class: %listingslab.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

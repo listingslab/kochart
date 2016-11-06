@@ -1,0 +1,7 @@
+listingslab_homepage:
+    pattern:  /
+    defaults: { _controller: ListingslabBundle:Default:index }
+
+listingslab_api:
+    pattern:  /api/
+    defaults: { _controller: ListingslabBundle:Default:api }

@@ -17,10 +17,9 @@
 There are 3 files to look at.</p> 
 
 <ul>
-    <li><a href="https://github.com/listingslab/knockout/blob/master/php/src/Listingslab/KockoutChartBundle/Resources/config/routing.yml" target="blank">routing.yml</a><br/>
-    
-    </li>
+    <li><a href="https://github.com/listingslab/knockout/blob/master/php/src/Listingslab/KockoutChartBundle/Resources/config/routing.yml" target="blank">routing.yml</a><br/>(Handles routing to give us an API endpoint and a SPA on the root URL)</li>
     <li><a href="https://github.com/listingslab/knockout/blob/master/php/src/Listingslab/KockoutChartBundle/Resources/views/Default/index.html.twig" target="_blank">index.html.twig</a></li>
     <li><a href="https://github.com/listingslab/knockout/blob/master/php/src/Listingslab/KockoutChartBundle/Controller/DefaultController.php" target="_blank">DefaultController.php</a></li>
 </ul>
 
+<p>The new bundle is included in the AppKernel.php file, so we removed the reference to the ACME bundle.</p>
