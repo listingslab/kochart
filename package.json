@@ -1,0 +1,31 @@
+{
+  "name": "kochart",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Symfony with Knockout/Chart Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/listingslab/kochart.git"
+  },
+  "keywords": [
+    "kockout",
+    "symfony",
+    "gulp",
+    "chart.js",
+    "git",
+    "node"
+  ],
+  "author": "listingslab",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "rimraf": "^2.5.4",
+    "run-sequence": "^1.2.2"
+  }
+}
