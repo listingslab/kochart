@@ -1,0 +1,30 @@
+{
+  "name": "kochart",
+  "description": "Symfony with Knockout/Chart Example",
+  "main": "index.js",
+  "authors": [
+    "listingslab"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kockout",
+    "symfony",
+    "webpack",
+    "node"
+  ],
+  "homepage": "http://kochart-listingslab.rhcloud.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "knockout": "^3.4.0",
+    "chart.js": "^2.3.0",
+    "js-cookie": "^2.1.3"
+  }
+}
