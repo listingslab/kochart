@@ -26,8 +26,10 @@ There are 3 files to look at.</p>
 <p>The front end is a combination of third party JavaScript libraries (Knockout, Chart.js, jQuery) and Twitter's Boostrap to provide asimple, quick but responsive & good looking layout. The intention was to create a chart of the data from the API and then update the data with new values every few seconds. Making the chart data Observable Arrays allows knockout to handle the UI update and we decided to extend that to create a table of constantly updating values and averages for the changing data. The resulting app is a very rough working prototype for a real time sensor monitoring frontend.</p>
 
 <h4>Frontend Development with Gulp & Bower</h4>
-<p>To facilitate the development of the frontend, we kept all development assets in a folder called 'frontend' and use <a href="" target="_blank">Gulp</a> to watch for any changes and to copy the files to the right places in the Symfony app. Alongside Gulp we also used <a href="https://bower.io/" target="_blank">Bower</a> to manage our front end dependencies such as Bootstrap & Knockout etc. When developing the fontend, we simply run 'gulp' in the commandline and let the automation take care of itself.</p>
+<p>To facilitate the development of the frontend, we kept all development assets in a folder called 'frontend' and use <a href="https://github.com/listingslab/kochart/blob/master/gulpfile.js" target="_blank">Gulp</a> to watch for any changes and to copy the files to the right places in the Symfony app. Alongside Gulp we also used <a href="https://bower.io/" target="_blank">Bower</a> to manage our front end dependencies such as Bootstrap & Knockout etc. When developing the fontend, we simply run 'gulp' in the commandline and let the automation take care of itself.</p>
 
 <h4>Setting up the SPA</h4>
+<p></p>
 
-<h4>main.js</h4>
+<h4>The main.js</h4>
+<p></p>

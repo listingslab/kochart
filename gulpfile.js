@@ -15,7 +15,7 @@ var runSequence = require('run-sequence');
 gulp.task('copy_index_template', function() {
     // copy the index template to the symfony bundle
     gulp.src('./frontend/html/index.html.twig')
-        .pipe(gulp.dest('./php/src/Listingslab/LevauxBundle/Resources/views/Default/'));
+        .pipe(gulp.dest('./php/src/Listingslab/Bundle/Resources/views/Default/'));
 });
 
 //////////////////////////////////////

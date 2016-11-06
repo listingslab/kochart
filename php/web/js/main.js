@@ -33,6 +33,7 @@ $( document ).ready(function() {
             appInt = setInterval (appInterval, 2000);
         });
     doCookies ();
+    $('#aboutModal .modal-body').load('README.html');
 });
 
 function appInterval (){
@@ -84,7 +85,6 @@ function doCookies (){
     if (Cookies.get('seenModal') === undefined){
         var about = $('#aboutModal');
         about.modal('show');
-        $('#aboutModal .modal-body').load('README.md');
         about.on('hidden.bs.modal', function () {
             Cookies.set('seenModal', 'yes', { expires: 365 });
         });

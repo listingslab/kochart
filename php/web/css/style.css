@@ -108,7 +108,7 @@ body {
 
 .location-image {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
   width: 40px;
   border-radius: 3px;
 }
@@ -139,7 +139,7 @@ body {
 }
 
 .legend {
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 #sensor-chart {
